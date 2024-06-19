@@ -6,7 +6,7 @@
 .PARAMETER documentPath
     Full path to the Recipe Template file on your local machine. This script uses the User Group Template but can work in other documents as long as the default values are the same as our template.
 .PARAMETER tokFile
-    Full path to the Tok file that was generated on the Packaging Machine.
+    Full path to the token_output.txt file that was generated on the Packaging Machine.
 .REQUIRES PowerShell Version 5.0, Microsoft Word, a Cloudpaging Recipe Template and a Cloudpaging .tok file
  .EXAMPLE
     >AutoPopulateRecipe.ps1 -documentPath C:\Users\Public\Documents\CloudpagingRecipeTemplate.docx -tokFile "C:\Users\Public\Chrome"
